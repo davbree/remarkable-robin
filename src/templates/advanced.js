@@ -18,6 +18,8 @@ export default class Advanced extends React.Component {
     render() {
         return (
             <Layout {...this.props}>
+
+            <h1>title</h1>
             {_.map(_.get(this.props, 'pageContext.frontmatter.sections', null), (section, section_idx) => {
                 let component = _.upperFirst(_.camelCase(_.get(section, 'type', null)));
                 let Component = components[component];
