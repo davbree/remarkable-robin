@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import {Link, withPrefix} from '../utils';
-import Icon from './Ico2n';
+import Icon from './Icon';
 import HeaderMenu from './HeaderMenu';
 
 export default class Header extends React.Component {
